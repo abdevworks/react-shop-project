@@ -19,7 +19,7 @@ export default function StoreFront() {
       },[]);
 
     return (
-        <div>
+        <div className="store-front">
             {products.map(product=>{
                 return <Product details={product} />;
             })}
